@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/foo/sicp/chapter1/p1.3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="132" column="18" lean-forward="true" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
+            <state relative-caret-position="-106">
+              <caret line="134" column="17" lean-forward="true" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -380,12 +380,12 @@
       <workItem from="1549087394062" duration="1155000" />
       <workItem from="1550650917426" duration="53000" />
       <workItem from="1552728509997" duration="16129000" />
-      <workItem from="1552964946633" duration="14569000" />
+      <workItem from="1552964946633" duration="14980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83079000" />
+    <option name="totallyTimeSpent" value="83490000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -398,7 +398,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="896" y="127" width="1507" height="908" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14651002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -411,8 +410,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32839838" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.30451614" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="9" visible="true" weight="0.21705426" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" visible="true" weight="0.30361757" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.36563307" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003455" side_tool="true" weight="0.22207268" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -701,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foo/sicp/chapter1/p1.3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="132" column="18" lean-forward="true" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
+        <state relative-caret-position="-106">
+          <caret line="134" column="17" lean-forward="true" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
         </state>
       </provider>
     </entry>
