@@ -121,6 +121,7 @@ def triangle(n):
             xs.append(recursive(i, j))
         print(xs)
 
+
 # yield在函数中的功能类似于return，不同的是yield每次返回结果之后函数并没有退出，
 # 而是每次遇到yield关键字后返回相应结果，并保留函数当前的运行状态，等待下一次的调用。
 # 如果一个函数需要多次循环执行一个动作，并且每次执行的结果都是需要的，这种场景很适合使用yield实现。
@@ -143,8 +144,136 @@ def triangles1(n1):
     println(n1)
 
 
+def expt(b1, n1):
+    def fast_expt(b, n, a):
+        if n == 0:
+            return a
+        elif n & 1 == 0:
+            return fast_expt(b * b, n >> 1, a)
+        else:
+            return fast_expt(b, n - 1, b * a)
+
+    return fast_expt(b1, n1, 1)
+
+
+def multi(a1, b1):
+    def double(n):
+        return n << 1
+
+    def halve(n):
+        return n >> 1
+
+    def multi_iter(a, b, p):
+        if b == 0:
+            return p
+        elif b & 1 == 0:
+            return multi_iter(double(a), halve(b), p)
+        else:
+            return multi_iter(a, b - 1, p + a)
+
+    return multi_iter(a1, b1, 0)
+
+
+def fib_1(n):
+    def fib_iter(a, b, p, q, count):
+        if count == 0:
+            return b
+        elif count & 1 == 0:
+            return fib_iter(a, b, p * p + q * q, 2 * p * q + q * q, count >> 1)
+        else:
+            return fib_iter(b * q + a * p + a * q, b * p + a * q, p, q, count - 1)
+
+    return fib_iter(1, 0, 0, 1, n)
+
+
+# 求和公式
+def sum_1(term, next_a, a, b):
+    # Normal recursion depth maxes out at 10000
+    def sum_iter(cur_a, result):
+        if cur_a > b:
+            return result
+        else:
+            return sum_iter(next_a(cur_a), term(cur_a) + result)
+
+    return sum_iter(a, 0)
+
+
+# 积分求法
+def integral(f, a, b, dx):
+    return sum_1(f, lambda x: x + dx, a + dx / 2, b) * dx
+
+
+# 积分求法
+def simpson(f, a, b, n):
+    h = (b - a) / n
+
+    def yk(k):
+        if k == 0 or k == n:
+            m = 1
+        elif k & 1 == 1:
+            m = 4
+        else:
+            m = 2
+        return m * f(a + k * h)
+
+    return h / 3 * sum_1(yk, lambda x: x + 1, 0, n)
+
+
+def product(term, next_a, a, b):
+    def iter_product(cur_a, result):
+        if cur_a > b:
+            return result
+        else:
+            return iter_product(next_a(cur_a), term(cur_a) * result)
+
+    if a == 0:
+        return 0
+    else:
+        return iter_product(a, 1)
+
+
+def factorial_2(n):
+    return product(lambda x: x, lambda x: x + 1, 1, n)
+
+
+def pi(n):
+    def yk(k):
+        if k & 1 == 1:
+            m = 3 + k - 1
+            return (m - 1) / m
+        else:
+            m = 3 + k - 2
+            return (m + 1) / m
+
+    return 4 * product(yk, lambda k: k + 1, 1, n)
+
+
+def accumulate(combiner, null_value, term, netx_a, a, b):
+    def iter_acc(cur_a, result):
+        if cur_a > b:
+            return result
+        else:
+            return iter_acc(netx_a(cur_a), combiner(term(cur_a), result))
+
+    return iter_acc(a, null_value)
+
+
+def sum_2(term, next_a, a, b):
+    return accumulate(lambda x, y: x + y, 0, term, next_a, a, b)
+
+
 if __name__ == '__main__':
-    triangles1(10)
+    print(sum_2(lambda x: x, lambda x: x + 1, 1, 2000))
+    # print(pi(2100))
+    # print(simpson(lambda x: x * x * x, 0, 1, 1000))
+    # print(integral(lambda x: x * x * x, 0, 1, 0.001))
+    # print(8 * sum_1(lambda x: 1 / (x * (x + 2)), lambda x: x + 4, 1, 5000))
+    # print(sum_1(lambda x: x * x * x, lambda x: x + 1, 1, 10))
+    # print(sum_1(lambda x: x, lambda x: x + 1, 1, 2000))
+    # print(fib(1000000))
+    # print(multi(7, 8))
+    # print(expt(2, 10000))
+    # triangles1(10)
     # print(calucalate_f1(200))
     # print(count_change(2000))
     # print(fib(100))
