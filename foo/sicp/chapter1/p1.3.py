@@ -262,7 +262,30 @@ def sum_2(term, next_a, a, b):
     return accumulate(lambda x, y: x + y, 0, term, next_a, a, b)
 
 
+def search(f, neg_point, pos_point):
+    def mid_point(x1, x2):
+        return (x2 - x1) / 2 + x1
+
+    def close_enough(x, y):
+        return abs(x - y) < 0.001
+
+    def iter_search(x1, x2):
+        mid = mid_point(x1, x2)
+        if close_enough(f(x1), f(x2)):
+            return mid
+        elif f(mid) < 0:
+            return search(f, mid, x2)
+        else:
+            return search(f, x1, mid)
+
+    if f(neg_point) * f(pos_point) > 0:
+        return "fool init"
+    else:
+        return iter_search(neg_point, pos_point)
+
+
 if __name__ == '__main__':
+    print(search(lambda x: x * x * x - 2 * x - 3, 1.0, 2.0))
     print(sum_2(lambda x: x, lambda x: x + 1, 1, 2000))
     # print(pi(2100))
     # print(simpson(lambda x: x * x * x, 0, 1, 1000))
