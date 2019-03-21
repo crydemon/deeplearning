@@ -1,3 +1,6 @@
+import math
+
+
 def sqrt(x, precsion, guess):
     cur_precsion = 1.0
     d = 1.0
@@ -284,9 +287,84 @@ def search(f, neg_point, pos_point):
         return iter_search(neg_point, pos_point)
 
 
+def fixed_point(f, first_guess):
+    tolerance = 0.00001
+
+    def close_enough(v1, v2):
+        return abs(v1 - v2) < tolerance
+
+    def go(guess):
+        next_g = f(guess)
+        if close_enough(next_g, guess):
+            return next_g
+        else:
+            return go(next_g)
+
+    return go(first_guess)
+
+
+# (x / y + y) /2 控制振荡， 平均阻尼技术
+def sqrt2(x):
+    return fixed_point(lambda y: (x / y + y) / 2, 1.0)
+
+
+def golden_rate1():
+    return fixed_point(lambda x: 1 + 1 / x, 1.0)
+
+
+def average_damp(f):
+    return lambda x: (f(x) + x) / 2
+
+
+def sqrt3(x):
+    return fixed_point(average_damp(lambda y: x / y), 1.0)
+
+
+def cube_root(x):
+    return fixed_point(average_damp(lambda y: x / (y * y)), 1.0)
+
+
+def deriv(g):
+    dx = 0.000001
+    return lambda x: (g(x + dx) - g(x)) / dx
+
+
+def newton_tranform(g):
+    return lambda x: (x - g(x) / deriv(g)(x))
+
+
+def newton_method(g, guess):
+    return fixed_point(newton_tranform(g), guess)
+
+
+def sqrt4(x):
+    return newton_method(lambda y: x - y * y, 1.0)
+
+
+def fixed_point_of_transform(g, transform, guess):
+    return fixed_point(transform(g), guess)
+
+
+def sqrt5(x):
+    return fixed_point_of_transform(lambda y: y * y - x, newton_tranform, 1.0)
+
+
+def sqrt6(x):
+    return fixed_point_of_transform(lambda y: x / y, average_damp, 1.0)
+
+
 if __name__ == '__main__':
-    print(search(lambda x: x * x * x - 2 * x - 3, 1.0, 2.0))
-    print(sum_2(lambda x: x, lambda x: x + 1, 1, 2000))
+    print(sqrt6(5))
+    print(sqrt5(5))
+    print(sqrt4(5))
+    print(deriv(lambda x: x * x * x)(5))
+    print(cube_root(3))
+    print(sqrt3(3))
+    print(average_damp(lambda x: x * x)(10))
+    print(golden_rate1())
+    # print(fixed_point(lambda x: math.sin(x) + math.cos(x), 1.0))
+    # print(search(lambda x: x * x * x - 2 * x - 3, 1.0, 2.0))
+    # print(sum_2(lambda x: x, lambda x: x + 1, 1, 2000))
     # print(pi(2100))
     # print(simpson(lambda x: x * x * x, 0, 1, 1000))
     # print(integral(lambda x: x * x * x, 0, 1, 0.001))
