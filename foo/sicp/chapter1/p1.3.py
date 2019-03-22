@@ -353,15 +353,30 @@ def sqrt6(x):
     return fixed_point_of_transform(lambda y: x / y, average_damp, 1.0)
 
 
+def cubic(a, b, c):
+    return lambda x: x * x * x + a * x * x + b * x + c
+
+
+def double(f):
+    return lambda x: f(f(x))
+
+
+def compose(f, g):
+    return lambda x: f(g(x))
+
+
 if __name__ == '__main__':
-    print(sqrt6(5))
-    print(sqrt5(5))
-    print(sqrt4(5))
-    print(deriv(lambda x: x * x * x)(5))
-    print(cube_root(3))
-    print(sqrt3(3))
-    print(average_damp(lambda x: x * x)(10))
-    print(golden_rate1())
+    print(compose(lambda x: x * x, lambda x: x + 1)(6))
+    print((double(double(double)))(lambda x: x + 1)(5))
+    # print(newton_method(cubic(3, 2, 1), 1.0))
+    # print(sqrt6(5))
+    # print(sqrt5(5))
+    # print(sqrt4(5))
+    # print(deriv(lambda x: x * x * x)(5))
+    # print(cube_root(3))
+    # print(sqrt3(3))
+    # print(average_damp(lambda x: x * x)(10))
+    # print(golden_rate1())
     # print(fixed_point(lambda x: math.sin(x) + math.cos(x), 1.0))
     # print(search(lambda x: x * x * x - 2 * x - 3, 1.0, 2.0))
     # print(sum_2(lambda x: x, lambda x: x + 1, 1, 2000))

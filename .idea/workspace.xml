@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56221bc-92bd-4667-bda2-800d39947876" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foo/sicp/chapter1/p1.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/sicp/chapter1/p1.3.py" afterDir="false" />
     </list>
@@ -18,13 +19,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foo/sicp/chapter1/p1.3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="347" column="44" selection-start-line="347" selection-start-column="44" selection-end-line="347" selection-end-column="44" />
+            <state relative-caret-position="150">
+              <caret line="317" lean-forward="true" selection-start-line="317" selection-end-line="317" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -83,14 +89,15 @@
         <option value="$PROJECT_DIR$/foo/utils/fs.py" />
         <option value="$PROJECT_DIR$/foo/utils/tailrec.py" />
         <option value="$PROJECT_DIR$/foo/sicp/chapter1/p1.3.py" />
+        <option value="$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="745" />
-    <option name="y" value="120" />
+    <option name="x" value="909" />
+    <option name="y" value="177" />
     <option name="width" value="1507" />
-    <option name="height" value="988" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -121,7 +128,7 @@
               <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
               <item name="foo" type="462c0819:PsiDirectoryNode" />
               <item name="sicp" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
@@ -341,12 +348,12 @@
       <workItem from="1552728509997" duration="16129000" />
       <workItem from="1552964946633" duration="40591000" />
       <workItem from="1553166038235" duration="97000" />
-      <workItem from="1553166463061" duration="3120000" />
+      <workItem from="1553166463061" duration="10080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112318000" />
+    <option name="totallyTimeSpent" value="119278000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -358,10 +365,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="795" y="158" width="1507" height="976" extended-state="0" />
+    <frame x="909" y="177" width="1507" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14996545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,8 +379,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32839838" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.27315915" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="9" sideWeight="0.4989634" visible="true" weight="0.3337292" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.27283373" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4989634" visible="true" weight="0.33216783" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50103664" side_tool="true" weight="0.2735043" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -669,10 +676,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foo/sicp/chapter1/p1.3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="347" column="44" selection-start-line="347" selection-start-column="44" selection-end-line="347" selection-end-column="44" />
+        <state relative-caret-position="150">
+          <caret line="317" lean-forward="true" selection-start-line="317" selection-end-line="317" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
