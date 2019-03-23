@@ -14,6 +14,5 @@ def two():
     return lambda f: lambda x: f(f(x))
 
 
-
-            if __name__ == '__main__':
+if __name__ == '__main__':
     print(one()(lambda x: x + 1)(1))
