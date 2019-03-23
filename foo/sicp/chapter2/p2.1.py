@@ -38,7 +38,18 @@ def display(x):
 
 
 def make_rat(n, d):
-    return [n, d]
+    if d < 0:
+        n = -n
+        d = -d
+    g = gcd(n, d)
+    return [int(n / g), int(d / g)]
+
+
+def gcd(a, b):
+    if b == 0:
+        return a
+    else:
+        return gcd(b, a % b)
 
 
 def numer(x):
@@ -65,7 +76,11 @@ def one_third():
     return make_rat(1, 3)
 
 
+
+
+
 if __name__ == '__main__':
     print_rat(one_half())
     print_rat(one_third())
     print_rat(add_rat(one_half(), one_third()))
+    print_rat(add_rat(one_third(), one_third()))

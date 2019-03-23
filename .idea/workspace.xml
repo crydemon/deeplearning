@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56221bc-92bd-4667-bda2-800d39947876" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/foo/sicp/chapter2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/sicp/chapter2/p2.3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/sicp/chapter2/p22.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/sicp/chapter2/p24.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/sicp/chapter2/p25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/sicp/chapter2/p26.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/test/paramscope.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py" afterDir="false" />
     </list>
@@ -15,14 +22,15 @@
     <SUITE FILE_PATH="coverage/deeplearning$treePlotter.coverage" NAME="treePlotter Coverage Results" MODIFIED="1547041113260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deeplearning$h1_best.coverage" NAME="h1_best Coverage Results" MODIFIED="1546493913467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deeplearning$ThinkClass.coverage" NAME="ThinkClass Coverage Results" MODIFIED="1546491584674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/pystack$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1553325372534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/foo/sicp/chapter2" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py">
+        <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p26.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="375">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -84,14 +92,21 @@
         <option value="$PROJECT_DIR$/foo/utils/tailrec.py" />
         <option value="$PROJECT_DIR$/foo/sicp/chapter1/p1.3.py" />
         <option value="$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py" />
+        <option value="$PROJECT_DIR$/foo/test/paramscope.py" />
+        <option value="$PROJECT_DIR$/foo/sicp/chapter2/p2.2.py" />
+        <option value="$PROJECT_DIR$/foo/sicp/chapter2/__init__.py" />
+        <option value="$PROJECT_DIR$/foo/sicp/chapter2/p2.3.py" />
+        <option value="$PROJECT_DIR$/foo/sicp/chapter2/p24.py" />
+        <option value="$PROJECT_DIR$/foo/sicp/chapter2/p25.py" />
+        <option value="$PROJECT_DIR$/foo/sicp/chapter2/p26.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="732" />
-    <option name="y" value="74" />
-    <option name="width" value="1507" />
-    <option name="height" value="985" />
+    <option name="x" value="749" />
+    <option name="y" value="12" />
+    <option name="width" value="1740" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,14 +137,13 @@
               <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
               <item name="foo" type="462c0819:PsiDirectoryNode" />
               <item name="sicp" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
               <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
               <item name="foo" type="462c0819:PsiDirectoryNode" />
-              <item name="sicp" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
@@ -160,13 +174,14 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo\sicp\chapter2" />
+      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\meachinglearning" />
+      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo" />
       <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\meachinglearning" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\meachinglearning" />
-      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -181,7 +196,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.p2.1">
+  <component name="RunManager" selected="Python.p26">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pystack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/sicp/chapter2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/sicp/chapter2/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,48 +241,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="p1.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pystack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\ai\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/sicp/chapter1" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/sicp/chapter1/p1.2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="p1.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pystack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/sicp/chapter1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/sicp/chapter1/p1.3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="p2.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="p24" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,7 +251,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/sicp/chapter2/p24.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,20 +260,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tailrec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="p25" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/sicp/chapter2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/utils/tailrec.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/sicp/chapter2/p25.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,20 +279,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="two" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="p26" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/sicp/chapter2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/test/two.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/sicp/chapter2/p26.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="p2.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pystack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/sicp/chapter2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/sicp/chapter2/p2.3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,19 +318,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.p1.2" />
-      <item itemvalue="Python.p1.3" />
-      <item itemvalue="Python.two" />
-      <item itemvalue="Python.tailrec" />
-      <item itemvalue="Python.p2.1" />
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.p2.3" />
+      <item itemvalue="Python.p24" />
+      <item itemvalue="Python.p25" />
+      <item itemvalue="Python.p26" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.p2.1" />
-        <item itemvalue="Python.p1.3" />
-        <item itemvalue="Python.tailrec" />
-        <item itemvalue="Python.two" />
-        <item itemvalue="Python.p1.2" />
+        <item itemvalue="Python.p26" />
+        <item itemvalue="Python.p25" />
+        <item itemvalue="Python.p24" />
+        <item itemvalue="Python.p2.3" />
+        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
@@ -347,12 +356,12 @@
       <workItem from="1552728509997" duration="16129000" />
       <workItem from="1552964946633" duration="40591000" />
       <workItem from="1553166038235" duration="97000" />
-      <workItem from="1553166463061" duration="13278000" />
+      <workItem from="1553166463061" duration="33130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122476000" />
+    <option name="totallyTimeSpent" value="142328000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -364,51 +373,57 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="308" y="48" width="1507" height="985" extended-state="0" />
+    <frame x="749" y="12" width="1740" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14305459" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18035714" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32902467" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286908" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34334764" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32839838" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.32517484" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4989634" visible="true" weight="0.33137485" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50103664" side_tool="true" weight="0.2735043" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32902467" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3286908" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.34334764" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39952996" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3278496" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.3243243" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32902467" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.4989634" visible="true" weight="0.3267544" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50103664" side_tool="true" weight="0.2735043" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="326" height="702" id="Documentation" order="3" sideWeight="0.5035765" side_tool="true" weight="0.12646855" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49642345" weight="0.2633034" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14305459" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32902467" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3286908" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.34334764" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39952996" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3278496" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49965447" weight="0.3243243" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.4989634" visible="true" weight="0.29964748" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50103664" side_tool="true" weight="0.2735043" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" x="0" y="0" width="326" height="702" id="Documentation" order="3" sideWeight="0.5035765" side_tool="true" visible="true" weight="0.12646855" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49642345" weight="0.2633034" />
       <window_info anchor="right" id="Database" order="5" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25391424" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30369514" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,13 +441,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/ai/Lib/site-packages/matplotlib/axes/_axes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="6176" column="8" selection-start-line="6176" selection-start-column="8" selection-end-line="6176" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/ai/Lib/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -636,23 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo/test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/test/two.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/test/one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -660,31 +651,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-992553395/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4170" column="8" selection-start-line="4170" selection-start-column="8" selection-end-line="4170" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/utils/tailrec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foo/sicp/chapter1/p1.3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="1007">
           <caret line="367" selection-start-line="367" selection-end-line="367" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        <state relative-caret-position="122">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/test/paramscope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/utils/tailrec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/test/one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/sicp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/test/two.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p22.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p2.3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-992553395/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="468" column="4" selection-start-line="468" selection-start-column="4" selection-end-line="468" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p25.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p24.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p26.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
         </state>
       </provider>
     </entry>
