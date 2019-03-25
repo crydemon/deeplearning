@@ -3,23 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="c56221bc-92bd-4667-bda2-800d39947876" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/foo/plotly/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/plotly/apps1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/plotly/apps.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foo/plotly/apps2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foo/plotly/apps3.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foo/plotly/apps4.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foo/plotly/apps5.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foo/plotly/apps6.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/foo/plotly/apps7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/sicp/chapter2/p21.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/sicp/chapter3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/sicp/chapter3/p1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/stocks.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/sicp/chapter2/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/sicp/chapter2/p2.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/sicp/chapter2/3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,19 +24,18 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/deeplearning$treePlotter.coverage" NAME="treePlotter Coverage Results" MODIFIED="1547041113260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deeplearning$h1_best.coverage" NAME="h1_best Coverage Results" MODIFIED="1546493913467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pystack$apps1.coverage" NAME="apps1 Coverage Results" MODIFIED="1553502267915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/foo/plotly" />
     <SUITE FILE_PATH="coverage/deeplearning$ThinkClass.coverage" NAME="ThinkClass Coverage Results" MODIFIED="1546491584674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/pystack$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1553325372534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/foo/sicp/chapter2" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/foo/plotly/apps1.py">
+        <entry file="file://$PROJECT_DIR$/foo/plotly/apps7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="286">
+              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
               <folding>
-                <element signature="e#24#35#0" expanded="true" />
+                <element signature="e#170#181#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,7 +69,6 @@
       <find>stringTmp</find>
       <find>memory</find>
       <find>lambda</find>
-      <find>utils</find>
     </findStrings>
     <replaceStrings>
       <replace>list(myTree.keys())[0]</replace>
@@ -113,18 +105,20 @@
         <option value="$PROJECT_DIR$/foo/sicp/chapter2/p24.py" />
         <option value="$PROJECT_DIR$/foo/sicp/chapter2/p25.py" />
         <option value="$PROJECT_DIR$/foo/sicp/chapter2/p26.py" />
-        <option value="$PROJECT_DIR$/foo/sicp/chapter2/p21.py" />
-        <option value="$PROJECT_DIR$/foo/sicp/chapter3/p1.py" />
+        <option value="$PROJECT_DIR$/foo/plotly/apps.py" />
+        <option value="$PROJECT_DIR$/foo/plotly/apps2.py" />
+        <option value="$PROJECT_DIR$/foo/plotly/apps3.py" />
+        <option value="$PROJECT_DIR$/foo/plotly/apps4.py" />
         <option value="$PROJECT_DIR$/foo/plotly/apps5.py" />
-        <option value="$PROJECT_DIR$/foo/plotly/apps1.py" />
+        <option value="$PROJECT_DIR$/foo/plotly/apps6.py" />
+        <option value="$PROJECT_DIR$/foo/plotly/apps7.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="108" />
-    <option name="y" value="-23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="277" />
     <option name="width" value="1740" />
-    <option name="height" value="990" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -138,37 +132,17 @@
           <expand>
             <path>
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="pystack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="pystack" type="462c0819:PsiDirectoryNode" />
               <item name="foo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="foo" type="462c0819:PsiDirectoryNode" />
-              <item name="plotly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="foo" type="462c0819:PsiDirectoryNode" />
-              <item name="sicp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="foo" type="462c0819:PsiDirectoryNode" />
-              <item name="sicp" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="foo" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="pystack" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,9 +152,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/anaconda" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -192,14 +166,15 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\myRepo\pystack\resources" />
+      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo" />
+      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\meachinglearning" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo\sicp\chapter2" />
       <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\meachinglearning" />
       <recent name="C:\Users\wqkant\PycharmProjects\deeplearning" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo" />
-      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\meachinglearning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -214,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.apps1">
+  <component name="RunManager" selected="Python.apps7">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,54 +212,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="apps1" type="PythonConfigurationType" factoryName="Python">
-      <module name="pystack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/plotly" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/plotly/apps1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="apps2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pystack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/plotly" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/plotly/apps2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="apps3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/plotly" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -304,9 +235,6 @@
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/plotly" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -326,9 +254,6 @@
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/plotly" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -344,20 +269,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="p21" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="apps6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/sicp/chapter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/plotly" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/sicp/chapter2/p21.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/plotly/apps6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="apps7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pystack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/plotly" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/plotly/apps7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,20 +308,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.apps1" />
-      <item itemvalue="Python.apps2" />
       <item itemvalue="Python.apps3" />
-      <item itemvalue="Python.apps5" />
       <item itemvalue="Python.apps4" />
-      <item itemvalue="Python.p21" />
+      <item itemvalue="Python.apps5" />
+      <item itemvalue="Python.apps6" />
+      <item itemvalue="Python.apps7" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.apps4" />
-        <item itemvalue="Python.p21" />
+        <item itemvalue="Python.apps7" />
+        <item itemvalue="Python.apps6" />
         <item itemvalue="Python.apps5" />
+        <item itemvalue="Python.apps4" />
         <item itemvalue="Python.apps3" />
-        <item itemvalue="Python.apps2" />
       </list>
     </recent_temporary>
   </component>
@@ -406,15 +346,14 @@
       <workItem from="1552728509997" duration="16129000" />
       <workItem from="1552964946633" duration="40591000" />
       <workItem from="1553166038235" duration="97000" />
-      <workItem from="1553166463061" duration="34022000" />
-      <workItem from="1553479234897" duration="9461000" />
-      <workItem from="1553493595926" duration="3266000" />
-      <workItem from="1553496903974" duration="3897000" />
+      <workItem from="1553166463061" duration="33130000" />
+      <workItem from="1553430181642" duration="2444000" />
+      <workItem from="1553433393525" duration="1824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159844000" />
+    <option name="totallyTimeSpent" value="146596000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -426,29 +365,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="277" y="0" width="1740" height="1046" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13392857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32857144" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32902467" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286908" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.34285715" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.34334764" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39952996" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3278496" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.35119048" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32857144" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.92261904" visible="true" weight="0.37660944" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.077380955" side_tool="true" weight="0.49166667" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.3243243" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32902467" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.4989634" visible="true" weight="0.4627193" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50103664" side_tool="true" weight="0.2735043" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="326" height="702" id="Documentation" order="3" sideWeight="0.5035765" side_tool="true" weight="0.23571429" />
+      <window_info anchor="right" x="0" y="0" width="326" height="702" id="Documentation" order="3" sideWeight="0.5035765" side_tool="true" weight="0.12646855" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49642345" weight="0.2633034" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -489,10 +429,20 @@
           <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/foo/plotly/apps3.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://E:/ai/Lib/site-packages/lxml/etree.h" />
+    <entry file="file://E:/ai/pkgs/python-3.6.5-h0c2934d_0/include/object.h" />
+    <entry file="file://E:/ai/Lib/site-packages/numba/pycc/llvm_types.py" />
+    <entry file="file://$PROJECT_DIR$/pockmon.py" />
+    <entry file="file://$PROJECT_DIR$/h1_best.py" />
     <entry file="file://$PROJECT_DIR$/foo/meachinglearning/h1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4000">
@@ -503,13 +453,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-992553395/numpy/core/multiarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58725">
-          <caret line="2349" column="4" selection-start-line="2349" selection-start-column="4" selection-end-line="2349" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-992553395/numpy/core/multiarray.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8625">
@@ -517,20 +461,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/ai/Lib/site-packages/numpy/lib/shape_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21900">
-          <caret line="888" column="27" selection-start-line="888" selection-start-column="27" selection-end-line="888" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/ai/Lib/site-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40025">
-          <caret line="1612" column="4" selection-start-line="1612" selection-start-column="4" selection-end-line="1612" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/ai/Lib/site-packages/numpy/lib/shape_base.py" />
+    <entry file="file://E:/ai/Lib/site-packages/numpy/core/fromnumeric.py" />
     <entry file="file://$PROJECT_DIR$/kNN.py" />
     <entry file="file://$PROJECT_DIR$/foo/test/ThinkClass.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -540,20 +472,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pockmonada.py" />
-    <entry file="file://E:/ai/Lib/site-packages/prompt_toolkit/document.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/ai/Lib/site-packages/Cython/Compiler/Nodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="285" column="8" selection-start-line="285" selection-start-column="8" selection-end-line="285" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/ai/Lib/site-packages/prompt_toolkit/document.py" />
+    <entry file="file://E:/ai/Lib/site-packages/Cython/Compiler/Nodes.py" />
     <entry file="file://$PROJECT_DIR$/foo/test/matplot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -564,13 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/ai/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3495">
-          <caret line="2286" column="8" selection-start-line="2286" selection-start-column="8" selection-end-line="2286" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/ai/Lib/typing.py" />
     <entry file="file://$PROJECT_DIR$/trees.py" />
     <entry file="file://$PROJECT_DIR$/treePlotter.py" />
     <entry file="file://$PROJECT_DIR$/foo/meachinglearning/h1_best.py">
@@ -587,27 +501,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/ai/Lib/collections/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="1193" column="8" selection-start-line="1193" selection-start-column="8" selection-end-line="1193" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/ai/Lib/site-packages/IPython/core/interactiveshell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="2962" selection-start-line="2962" selection-end-line="2962" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/ai/pkgs/python-3.6.5-h0c2934d_0/Lib/collections/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="1193" column="8" selection-start-line="1193" selection-start-column="8" selection-end-line="1193" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/ai/Lib/collections/__init__.py" />
+    <entry file="file://E:/ai/Lib/site-packages/IPython/core/interactiveshell.py" />
+    <entry file="file://E:/ai/pkgs/python-3.6.5-h0c2934d_0/Lib/collections/__init__.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -636,7 +532,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/1.py">
+    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
@@ -647,6 +543,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/utils/tailrec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -677,7 +580,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/3.py">
+    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p2.3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
@@ -687,13 +590,7 @@
     <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-992553395/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="468" column="4" selection-start-line="468" selection-start-column="4" selection-end-line="468" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-992553395/builtins.py" />
     <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p25.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -710,50 +607,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p26.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo/plotly/apps7.py">
+    <entry file="file://$PROJECT_DIR$/foo/plotly/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="616">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/dash/dash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="1344" column="29" lean-forward="true" selection-start-line="1344" selection-start-column="19" selection-end-line="1344" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foo/plotly/apps3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/utils/tailrec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/ai/Lib/site-packages/dash_core_components/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/plotly/apps6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
+        <state relative-caret-position="464">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -762,58 +641,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foo/plotly/apps5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/ai/Lib/site-packages/dash/dash.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="1344" column="29" selection-start-line="1344" selection-start-column="18" selection-end-line="1344" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter3/p1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="34" selection-start-line="34" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/plotly/apps2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="464">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo/plotly/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/foo/plotly/apps6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/plotly/apps2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foo/plotly/apps4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p21.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/plotly/apps1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        <state relative-caret-position="464">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
           <folding>
-            <element signature="e#24#35#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/stocks.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/plotly/apps7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="e#170#181#0" expanded="true" />
           </folding>
         </state>
       </provider>
