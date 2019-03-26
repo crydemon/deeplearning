@@ -1,11 +1,14 @@
 from flask import Flask
+from flask import render_template
 
-app = Flask(__name__, static_url_path='', root_path='', static_folder='C:/Users/wqkant/PycharmProjects/deeplearning/foo/flaskr-study/static')
+static_path = '../static'
+app = Flask(__name__, static_url_path='', root_path='', static_folder=static_path, template_folder=static_path)
 
 
 @app.route('/')
 def hello_world():
-    return app.send_static_file('html/d3_1.html')
+    dataset = [250, 210, 170, 130, 260]
+    return render_template('html/p1.html', dataset=dataset)
 
 
 if __name__ == '__main__':
