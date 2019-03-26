@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/pystack.iml" filepath="$PROJECT_DIR$/.idea/pystack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/pystack.iml" filepath="$PROJECT_DIR$/.idea/pystack.iml" />
     </modules>
   </component>
 </project>
