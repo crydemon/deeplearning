@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56221bc-92bd-4667-bda2-800d39947876" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter4/dftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/test/did.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,63 +14,69 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/deeplearning$treePlotter.coverage" NAME="treePlotter Coverage Results" MODIFIED="1547041113260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pystack$pytest_for_nb_testingNB.coverage" NAME="pytest for nb.testingNB Coverage Results" MODIFIED="1553664587581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/foo/meachinglearning/chapter4" />
+    <SUITE FILE_PATH="coverage/pystack$pytest_for_nb_testingNB.coverage" NAME="pytest for nb.testingNB Coverage Results" MODIFIED="1553826706565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/foo/meachinglearning/chapter4" />
     <SUITE FILE_PATH="coverage/deeplearning$h1_best.coverage" NAME="h1_best Coverage Results" MODIFIED="1546493913467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/deeplearning$ThinkClass.coverage" NAME="ThinkClass Coverage Results" MODIFIED="1546491584674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/pystack$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1553325372534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/foo/sicp/chapter2" />
+    <SUITE FILE_PATH="coverage/pystack$pytest_in_nb_py.coverage" NAME="pytest in nb.py Coverage Results" MODIFIED="1553826715141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/foo/meachinglearning/chapter4" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="225">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/dftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/anaconda/Lib/site-packages/pandas/core/generic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1760">
-              <caret line="3024" column="8" selection-start-line="3024" selection-start-column="8" selection-end-line="3024" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/anaconda/Lib/site-packages/pandas/io/parsers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="636" column="33" selection-start-line="636" selection-start-column="27" selection-end-line="636" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1486">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="200">
+              <caret line="120" column="18" lean-forward="true" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1980697110/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="426" column="62" selection-start-line="426" selection-start-column="56" selection-end-line="426" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/anaconda/Lib/typing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="1491" column="8" selection-start-line="1491" selection-start-column="8" selection-end-line="1491" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foo/flaskr-study/flaskr/apps1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="275">
+              <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="26" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -115,6 +117,9 @@
       <find>var</find>
       <find>setOfWords2Vec</find>
       <find>header</find>
+      <find>re</find>
+      <find>ignore</find>
+      <find>np</find>
     </findStrings>
     <replaceStrings>
       <replace>list(myTree.keys())[0]</replace>
@@ -168,13 +173,13 @@
         <option value="$PROJECT_DIR$/foo/flaskr-study/static/html/p1.html" />
         <option value="$PROJECT_DIR$/foo/flaskr-study/flaskr/apps1.py" />
         <option value="$PROJECT_DIR$/foo/test/did.py" />
-        <option value="$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py" />
-        <option value="$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py" />
         <option value="$PROJECT_DIR$/foo/meachinglearning/chapter4/dftest.py" />
+        <option value="$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py" />
+        <option value="$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="101" />
     <option name="y" value="28" />
     <option name="width" value="1740" />
@@ -186,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,7 +269,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dftest">
+  <component name="RunManager" selected="Python.nb">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -335,6 +340,9 @@
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/meachinglearning/chapter4" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -354,6 +362,9 @@
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/meachinglearning/chapter4" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -369,36 +380,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="did" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="nb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/meachinglearning/chapter4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/test/did.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="one" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pystack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/test/one.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -423,20 +415,36 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in nb.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pystack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/meachinglearning/chapter4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.did" />
-      <item itemvalue="Python tests.pytest for nb.testingNB" />
-      <item itemvalue="Python.one" />
       <item itemvalue="Python.dataclean" />
       <item itemvalue="Python.dftest" />
+      <item itemvalue="Python tests.pytest in nb.py" />
+      <item itemvalue="Python tests.pytest for nb.testingNB" />
+      <item itemvalue="Python.nb" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dftest" />
-        <item itemvalue="Python.dataclean" />
+        <item itemvalue="Python.nb" />
+        <item itemvalue="Python tests.pytest in nb.py" />
         <item itemvalue="Python tests.pytest for nb.testingNB" />
-        <item itemvalue="Python.did" />
-        <item itemvalue="Python.one" />
+        <item itemvalue="Python.dataclean" />
+        <item itemvalue="Python.dftest" />
       </list>
     </recent_temporary>
   </component>
@@ -466,20 +474,12 @@
       <workItem from="1553430181642" duration="2444000" />
       <workItem from="1553433393525" duration="1824000" />
       <workItem from="1553503115233" duration="1433000" />
-      <workItem from="1553591153671" duration="24944000" />
+      <workItem from="1553591153671" duration="27013000" />
+      <workItem from="1553743760017" duration="3359000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_nb_testingNB - 2019.03.27 at 10h 19m 29s.xml">
-      <configuration name="pytest for nb.testingNB" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_nb_testingNB - 2019.03.27 at 11h 02m 50s.xml">
-      <configuration name="pytest for nb.testingNB" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_nb_testingNB - 2019.03.27 at 11h 03m 40s.xml">
-      <configuration name="pytest for nb.testingNB" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_nb_testingNB - 2019.03.27 at 11h 06m 40s.xml">
       <configuration name="pytest for nb.testingNB" configurationId="tests" />
     </history-entry>
@@ -492,9 +492,27 @@
     <history-entry file="pytest_for_nb_testingNB - 2019.03.27 at 13h 29m 52s.xml">
       <configuration name="pytest for nb.testingNB" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_nb_testingNB - 2019.03.28 at 10h 11m 34s.xml">
+      <configuration name="pytest for nb.testingNB" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_nb_py - 2019.03.29 at 10h 30m 36s.xml">
+      <configuration name="pytest in nb.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_nb_py - 2019.03.29 at 10h 30m 44s.xml">
+      <configuration name="pytest in nb.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_nb_py - 2019.03.29 at 10h 31m 22s.xml">
+      <configuration name="pytest in nb.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_nb_testingNB - 2019.03.29 at 10h 31m 48s.xml">
+      <configuration name="pytest for nb.testingNB" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_nb_py - 2019.03.29 at 10h 32m 01s.xml">
+      <configuration name="pytest in nb.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172973000" />
+    <option name="totallyTimeSpent" value="178401000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -506,23 +524,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="355" y="98" width="1740" height="1100" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28091684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.327252" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32785088" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.26086956" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39952996" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.45600858" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3278496" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.37742302" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.3197425" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32839224" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.4989634" visible="true" weight="0.52380955" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.4989634" visible="true" weight="0.30364805" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50103664" side_tool="true" weight="0.2735043" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -579,26 +597,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/ai/Lib/site-packages/IPython/core/interactiveshell.py" />
-    <entry file="file://E:/ai/pkgs/python-3.6.5-h0c2934d_0/Lib/collections/__init__.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foo/sicp/chapter1/p1.2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1375">
           <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -741,20 +743,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo/flaskr/static/d3_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/flaskr/apps1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/flaskr/static/d3_1.html" />
+    <entry file="file://$PROJECT_DIR$/foo/flaskr/apps1.py" />
     <entry file="file://E:/anaconda/Lib/site-packages/werkzeug/routing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
@@ -850,20 +840,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo/flaskr-study/flaskr/apps1.py">
+    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/dftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1486">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="12" column="44" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -874,17 +854,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py">
+    <entry file="file://$PROJECT_DIR$/foo/flaskr-study/flaskr/apps1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="275">
+          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/dftest.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/anaconda/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="1491" column="8" selection-start-line="1491" selection-start-column="8" selection-end-line="1491" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1980697110/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="426" column="62" selection-start-line="426" selection-start-column="56" selection-end-line="426" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="120" column="18" lean-forward="true" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
         </state>
       </provider>
     </entry>
