@@ -38,7 +38,7 @@ app.layout = html.Div([
 def update_graph(selected_dropdown_value):
     dff = df[df['Stock'] == selected_dropdown_value]
     return {
-        'data': [{
+        'grdient-data': [{
             'x': dff.Date,
             'y': dff.Close,
             'line': {

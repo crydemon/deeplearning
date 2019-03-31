@@ -18,7 +18,7 @@ app.layout = html.Div([
     dcc.Graph(
         id='life-exp-vs-gdp',
         figure={
-            'data': [
+            'grdient-data': [
                 go.Scatter(
                     x=df[df['continent'] == i]['gdp per capita'],
                     y=df[df['continent'] == i]['life expectancy'],
