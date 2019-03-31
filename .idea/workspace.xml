@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56221bc-92bd-4667-bda2-800d39947876" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/foo/test/feed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/test/monoDemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,29 +32,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="120" column="18" lean-forward="true" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+            <state relative-caret-position="-53">
+              <caret line="95" column="59" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1980697110/builtins.py">
+        <entry file="file://$PROJECT_DIR$/foo/test/feed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="426" column="62" selection-start-line="426" selection-start-column="56" selection-end-line="426" selection-end-column="62" />
+            <state relative-caret-position="125">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/foo/test/monoDemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/anaconda/Lib/typing.py">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/matplotlib/figure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="1491" column="8" selection-start-line="1491" selection-start-column="8" selection-end-line="1491" selection-end-column="8" />
+            <state relative-caret-position="754">
+              <caret line="1213" column="16" lean-forward="true" selection-start-line="1213" selection-start-column="16" selection-end-line="1213" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/feedparser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-213">
+              <caret line="3816" column="4" selection-start-line="3816" selection-start-column="4" selection-end-line="3816" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -61,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="425">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -75,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foo/flaskr-study/flaskr/apps1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="300">
               <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="26" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -176,14 +198,16 @@
         <option value="$PROJECT_DIR$/foo/meachinglearning/chapter4/dftest.py" />
         <option value="$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py" />
         <option value="$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py" />
+        <option value="$PROJECT_DIR$/foo/test/feed.py" />
+        <option value="$PROJECT_DIR$/foo/test/monoDemo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="101" />
-    <option name="y" value="28" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="135" />
+    <option name="y" value="72" />
     <option name="width" value="1740" />
-    <option name="height" value="1100" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -191,84 +215,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="pystack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="pystack" type="462c0819:PsiDirectoryNode" />
               <item name="foo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="foo" type="462c0819:PsiDirectoryNode" />
-              <item name="flaskr-study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="foo" type="462c0819:PsiDirectoryNode" />
-              <item name="flaskr-study" type="462c0819:PsiDirectoryNode" />
-              <item name="flaskr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="foo" type="462c0819:PsiDirectoryNode" />
-              <item name="flaskr-study" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="foo" type="462c0819:PsiDirectoryNode" />
-              <item name="flaskr-study" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="pystack" type="462c0819:PsiDirectoryNode" />
               <item name="foo" type="462c0819:PsiDirectoryNode" />
               <item name="meachinglearning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="pystack" type="462c0819:PsiDirectoryNode" />
               <item name="foo" type="462c0819:PsiDirectoryNode" />
               <item name="meachinglearning" type="462c0819:PsiDirectoryNode" />
               <item name="chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="foo" type="462c0819:PsiDirectoryNode" />
-              <item name="meachinglearning" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
-              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="pystack" type="462c0819:PsiDirectoryNode" />
               <item name="foo" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="foo" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.nb">
+  <component name="RunManager" selected="Python.monoDemo">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -336,20 +318,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataclean" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="feed" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/meachinglearning/chapter4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/test/feed.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,20 +337,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dftest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="monoDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/meachinglearning/chapter4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/meachinglearning/chapter4/dftest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/test/monoDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -432,19 +408,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dataclean" />
-      <item itemvalue="Python.dftest" />
+      <item itemvalue="Python.nb" />
       <item itemvalue="Python tests.pytest in nb.py" />
       <item itemvalue="Python tests.pytest for nb.testingNB" />
-      <item itemvalue="Python.nb" />
+      <item itemvalue="Python.feed" />
+      <item itemvalue="Python.monoDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.monoDemo" />
+        <item itemvalue="Python.feed" />
         <item itemvalue="Python.nb" />
         <item itemvalue="Python tests.pytest in nb.py" />
         <item itemvalue="Python tests.pytest for nb.testingNB" />
-        <item itemvalue="Python.dataclean" />
-        <item itemvalue="Python.dftest" />
       </list>
     </recent_temporary>
   </component>
@@ -476,6 +452,7 @@
       <workItem from="1553503115233" duration="1433000" />
       <workItem from="1553591153671" duration="27013000" />
       <workItem from="1553743760017" duration="3359000" />
+      <workItem from="1554011167739" duration="5602000" />
     </task>
     <servers />
   </component>
@@ -512,7 +489,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178401000" />
+    <option name="totallyTimeSpent" value="184003000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -524,10 +501,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="135" y="72" width="1740" height="1098" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28091684" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10654762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.327252" />
@@ -538,9 +515,9 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3278496" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.3197425" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.3195021" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32839224" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.4989634" visible="true" weight="0.30364805" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4989634" visible="true" weight="0.46887967" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50103664" side_tool="true" weight="0.2735043" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -548,7 +525,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" x="0" y="0" width="326" height="702" id="Documentation" order="3" sideWeight="0.5035765" side_tool="true" weight="0.12646855" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49642345" weight="0.2633034" />
+      <window_info active="true" anchor="right" id="SciView" order="4" sideWeight="0.49642345" visible="true" weight="0.45535713" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
     <layout-to-restore>
@@ -597,28 +574,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter1/p1.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter1/p1.3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="367" selection-start-line="367" selection-end-line="367" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/sicp/chapter2/p2.1.py" />
-    <entry file="file://$PROJECT_DIR$/foo/test/paramscope.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foo/utils/tailrec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
@@ -745,27 +700,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foo/flaskr/static/d3_1.html" />
     <entry file="file://$PROJECT_DIR$/foo/flaskr/apps1.py" />
-    <entry file="file://E:/anaconda/Lib/site-packages/werkzeug/routing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="595" column="19" selection-start-line="595" selection-start-column="19" selection-end-line="595" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/anaconda/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="363" column="17" selection-start-line="363" selection-start-column="8" selection-end-line="363" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/anaconda/pkgs/plotly-3.7.0-py_0/share/jupyter/nbextensions/plotlywidget/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="31622" column="290229" selection-start-line="31622" selection-start-column="290229" selection-end-line="31622" selection-end-column="290229" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/anaconda/Lib/site-packages/werkzeug/routing.py" />
+    <entry file="file://E:/anaconda/Lib/site-packages/flask/app.py" />
+    <entry file="file://E:/anaconda/pkgs/plotly-3.7.0-py_0/share/jupyter/nbextensions/plotlywidget/index.js" />
     <entry file="file://$PROJECT_DIR$/foo/flaskr-study/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -824,22 +761,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/.pytest_cache/v/cache/lastfailed">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/.pytest_cache/v/cache/stepwise">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/.pytest_cache/v/cache/nodeids">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/anaconda/Lib/site-packages/pandas/io/parsers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="636" column="33" selection-start-line="636" selection-start-column="27" selection-end-line="636" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/.pytest_cache/v/cache/lastfailed" />
+    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/.pytest_cache/v/cache/stepwise" />
+    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/.pytest_cache/v/cache/nodeids" />
+    <entry file="file://E:/anaconda/Lib/site-packages/pandas/io/parsers.py" />
     <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/dftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -847,26 +772,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/anaconda/Lib/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="3024" column="8" selection-start-line="3024" selection-start-column="8" selection-end-line="3024" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/flaskr-study/flaskr/apps1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://E:/anaconda/Lib/site-packages/pandas/core/generic.py" />
+    <entry file="file://E:/anaconda/Lib/typing.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1980697110/builtins.py" />
     <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/dataclean.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -876,29 +784,59 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="425">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/anaconda/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="1491" column="8" selection-start-line="1491" selection-start-column="8" selection-end-line="1491" selection-end-column="8" />
-        </state>
-      </provider>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1980697110/builtins.py">
+    <entry file="file://$PROJECT_DIR$/foo/flaskr-study/flaskr/apps1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="426" column="62" selection-start-line="426" selection-start-column="56" selection-end-line="426" selection-end-column="62" />
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter4/nb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="120" column="18" lean-forward="true" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+        <state relative-caret-position="-53">
+          <caret line="95" column="59" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/feedparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="3816" column="4" selection-start-line="3816" selection-start-column="4" selection-end-line="3816" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/test/feed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="1213" column="16" lean-forward="true" selection-start-line="1213" selection-start-column="16" selection-end-line="1213" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/test/monoDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
