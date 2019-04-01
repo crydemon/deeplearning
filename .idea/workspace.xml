@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56221bc-92bd-4667-bda2-800d39947876" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/foo/meachinglearning/others/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/meachinglearning/others/gradient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/test/pltGD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/test/sigmoid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter5/testSet.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/meachinglearning/h1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/meachinglearning/h1_best.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/meachinglearning/others/h1_best.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/meachinglearning/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/meachinglearning/others/kNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/meachinglearning/pockmon.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/meachinglearning/others/pockmon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/meachinglearning/pockmonada.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/meachinglearning/others/pockmonada.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/meachinglearning/treePlotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/meachinglearning/others/treePlotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/meachinglearning/trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/meachinglearning/others/trees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/plotly/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/plotly/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/plotly/apps1.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/plotly/apps1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/plotly/apps2.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/plotly/apps2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/plotly/apps4.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/plotly/apps4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/plotly/apps7.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/plotly/apps7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/test/monoDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/test/monoDemo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +22,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foo/meachinglearning/others/gradient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="89" column="45" lean-forward="true" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+            <state relative-caret-position="267">
+              <caret line="108" column="27" lean-forward="true" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/numpy/matrixlib/defmatrix.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="837" column="8" selection-start-line="837" selection-start-column="8" selection-end-line="837" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/numpy/core/numeric.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="222" selection-start-line="222" selection-end-line="222" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter5/testSet.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/455514904/numpy/core/_multiarray_umath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="10366" column="11" lean-forward="true" selection-start-line="10366" selection-start-column="11" selection-end-line="10366" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -148,14 +186,16 @@
         <option value="$PROJECT_DIR$/foo/test/monoDemo.py" />
         <option value="$PROJECT_DIR$/foo/test/pltGD.py" />
         <option value="$PROJECT_DIR$/foo/meachinglearning/others/gradient.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="776" />
-    <option name="y" value="74" />
+    <option name="x" value="327" />
+    <option name="y" value="142" />
     <option name="width" value="1740" />
-    <option name="height" value="1085" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,6 +220,13 @@
               <item name="pystack" type="462c0819:PsiDirectoryNode" />
               <item name="foo" type="462c0819:PsiDirectoryNode" />
               <item name="meachinglearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pystack" type="462c0819:PsiDirectoryNode" />
+              <item name="foo" type="462c0819:PsiDirectoryNode" />
+              <item name="meachinglearning" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
@@ -231,11 +278,11 @@
       <recent name="C:\Users\wqkant\PycharmProjects\deeplearning" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myRepo\pystack\foo\meachinglearning\chapter5" />
       <recent name="F:\myRepo\pystack\resources" />
       <recent name="F:\myRepo\pystack\foo\meachinglearning\others" />
       <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo\sicp\chapter2" />
       <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\meachinglearning" />
-      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -250,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gradient">
+  <component name="RunManager" selected="Python.logRegres">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,28 +320,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="feed" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pystack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/test/feed.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="gradient" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -306,6 +331,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/meachinglearning/others/gradient.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logRegres" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pystack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/meachinglearning/chapter5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -381,19 +425,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.feed" />
       <item itemvalue="Python.monoDemo" />
       <item itemvalue="Python.sigmoid" />
       <item itemvalue="Python.pltGD" />
       <item itemvalue="Python.gradient" />
+      <item itemvalue="Python.logRegres" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.logRegres" />
         <item itemvalue="Python.gradient" />
         <item itemvalue="Python.pltGD" />
         <item itemvalue="Python.sigmoid" />
         <item itemvalue="Python.monoDemo" />
-        <item itemvalue="Python.feed" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +470,7 @@
       <workItem from="1553591153671" duration="27013000" />
       <workItem from="1553743760017" duration="3359000" />
       <workItem from="1554011167739" duration="9006000" />
-      <workItem from="1554027995929" duration="5966000" />
+      <workItem from="1554027995929" duration="11378000" />
     </task>
     <servers />
   </component>
@@ -463,7 +507,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193373000" />
+    <option name="totallyTimeSpent" value="198785000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -475,9 +519,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="776" y="74" width="1740" height="1085" extended-state="0" />
+    <frame x="476" y="101" width="1740" height="1100" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15773809" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.327252" />
@@ -488,9 +532,9 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3278496" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.3195021" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.5207039" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32839224" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.4989634" visible="true" weight="0.4721346" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.4989634" visible="true" weight="0.42857143" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50103664" side_tool="true" weight="0.2735043" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -547,47 +591,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/dash/dash.py" />
-    <entry file="file://$PROJECT_DIR$/foo/plotly/apps3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/plotly/apps5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/plotly/apps6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo/plotly/apps4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foo/plotly/apps2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -790,13 +793,6 @@
     <entry file="file://$PROJECT_DIR$/resources/grdient-data/sample_submit.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/455514904/numpy/core/_multiarray_umath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1417">
-          <caret line="748" column="4" selection-start-line="748" selection-start-column="4" selection-end-line="748" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foo/meachinglearning/others/pockmonada.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-600">
@@ -818,10 +814,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foo/meachinglearning/others/gradient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="89" column="45" lean-forward="true" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+        <state relative-caret-position="267">
+          <caret line="108" column="27" lean-forward="true" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/455514904/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10366" column="11" lean-forward="true" selection-start-line="10366" selection-start-column="11" selection-end-line="10366" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter5/testSet.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/numpy/matrixlib/defmatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="837" column="8" selection-start-line="837" selection-start-column="8" selection-end-line="837" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
