@@ -18,6 +18,20 @@ def sigmoid(inX):
     return 1 / (1 + np.exp(-inX))
 
 
+def stocGradAscent1(dataMatrix, classLables, numIter=150):
+    m, n = np.shape(dataMatrix)
+    weights = np.ones
+    for j in range(numIter):
+        dataIndex = range(m)
+        for i in range(numIter):
+            alpha = 4 / (1 +j + i) + 0.01
+            randIndex = int(np.random.uniform(0, len(dataIndex)))
+            h = sigmoid(sum(dataMatrix[randIndex]*weights))
+            error = classLables[randIndex] - h
+            weights = weights + alpha * error * dataMatrix[randIndex]
+            del(dataIndex[randIndex])
+    return  weights
+
 def gradAscent(dataMatIn, classLabels):
     dataMatrix = np.mat(dataMatIn)                                        #转换成numpy的mat
     labelMat = np.mat(classLabels).transpose()                            #转换成numpy的mat,并进行转置
@@ -43,6 +57,7 @@ def plotBestFit(weights):
     ycord2 = []
     for i in range(n):
         if int(labelMat[i]) == 1:
+            print(dataArr[i, 1])
             xcord1.append(dataArr[i, 1])
             ycord1.append(dataArr[i, 2])
         else:
@@ -50,6 +65,7 @@ def plotBestFit(weights):
             ycord2.append(dataArr[i, 2])
     fig = plt.figure()
     ax = fig.add_subplot(111)
+    # 画图吧，s表示点点的大小，c就是color嘛，marker就是点点的形状哦o,x,*><^,都可以啦
     ax.scatter(xcord1, ycord1, s=30, c='red', marker='s')
     ax.scatter(xcord2, ycord2, s=30, c='green')
     x = np.arange(-3.0, 3.0, 0.1)

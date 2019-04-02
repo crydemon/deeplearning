@@ -1,5 +1,12 @@
+'''
+Created on Oct 28, 2010
+
+@author: Peter
+'''
 import matplotlib
 import numpy as np
+import matplotlib.cm as cm
+import matplotlib.mlab as mlab
 import matplotlib.pyplot as plt
 
 leafNode = dict(boxstyle="round4", fc="0.8")
