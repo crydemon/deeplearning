@@ -101,7 +101,7 @@ def spamTest():
     docList = [];
     classList = [];
     fullText = []
-    f_path = 'd:/machinelearninginaction/Ch04/email'
+    f_path = 'e:/machinelearninginaction/Ch04/email'
     for i in range(1, 26):  # 遍历25个txt文件
         wordList = textParse(open(f_path + '/spam/%d.txt' % i, encoding='utf-8', errors='ignore').read())  # 读取每个垃圾邮件，并字符串转换成字符串列表
         docList.append(wordList)
