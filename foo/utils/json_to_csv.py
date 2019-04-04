@@ -26,4 +26,4 @@ def trans(path):
 
 
 if __name__ == '__main__':
-    trans(str(sys.argv[1]))  # 获取path参数
+    trans(str('d:/raw'))  # 获取path参数
