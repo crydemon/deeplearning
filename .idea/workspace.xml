@@ -296,6 +296,9 @@
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/test" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -400,11 +403,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.auc" />
       <item itemvalue="Python.gradient" />
       <item itemvalue="Python.logRegres" />
       <item itemvalue="Python.plot2D" />
       <item itemvalue="Python.plotGD" />
-      <item itemvalue="Python.auc" />
     </list>
     <recent_temporary>
       <list>
