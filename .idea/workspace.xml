@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56221bc-92bd-4667-bda2-800d39947876" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/foo/utils/groupBy.json" beforeDir="false" afterPath="$PROJECT_DIR$/foo/utils/groupBy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter5/colic_sklearn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter5/horseColicTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter5/horseColicTraining.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foo/utils/json_to_csv_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/utils/json_to_csv_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,61 +26,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/foo/utils/json_to_csv_1.py">
+        <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter5/colic_sklearn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="52" column="49" lean-forward="true" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+            <state relative-caret-position="365">
+              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1980697110/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="5100" column="8" selection-start-line="5100" selection-start-column="8" selection-end-line="5100" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-300">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/anaconda/Lib/json/decoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="336" selection-start-line="336" selection-end-line="336" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foo/utils/groupBy.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="659" column="5" lean-forward="true" selection-end-line="701" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foo/utils/json_to_csv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="196" selection-start-line="196" selection-end-line="196" />
             </state>
           </provider>
         </entry>
@@ -119,6 +93,9 @@
       <find>np</find>
       <find>random</find>
       <find>randint</find>
+      <find>stocGradAscent1</find>
+      <find>axs1_ylabel_text</find>
+      <find>gradAscent</find>
     </findStrings>
     <replaceStrings>
       <replace>list(myTree.keys())[0]</replace>
@@ -133,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/h1.py" />
         <option value="$PROJECT_DIR$/h1_best.py" />
         <option value="$PROJECT_DIR$/test/ThinkClass.py" />
         <option value="$PROJECT_DIR$/kNN.py" />
@@ -180,18 +156,19 @@
         <option value="$PROJECT_DIR$/foo/meachinglearning/others/gradient.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/foo/meachinglearning/chapter5/plot2D.py" />
-        <option value="$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py" />
         <option value="$PROJECT_DIR$/foo/utils/json_to_csv.py" />
         <option value="$PROJECT_DIR$/foo/utils/groupBy.json" />
         <option value="$PROJECT_DIR$/foo/utils/json_to_csv_1.py" />
+        <option value="$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py" />
+        <option value="$PROJECT_DIR$/foo/meachinglearning/chapter5/colic_sklearn.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="227" />
-    <option name="y" value="70" />
+    <option name="x" value="474" />
+    <option name="y" value="71" />
     <option name="width" value="1507" />
-    <option name="height" value="1000" />
+    <option name="height" value="1022" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,12 +205,19 @@
               <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
               <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
               <item name="foo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pystack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="foo" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,19 +237,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo\meachinglearning\chapter5" />
+      <recent name="F:\myRepo\pystack\foo\meachinglearning\chapter5" />
+      <recent name="F:\myRepo\pystack\resources" />
+      <recent name="F:\myRepo\pystack\foo\meachinglearning\others" />
+      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo\sicp\chapter2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\myRepo\pystack\foo\meachinglearning\chapter5" />
       <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo\flaskr-study\static\html" />
       <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo\flaskr-study\templates" />
       <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo\flaskr-study\flaskr" />
       <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo\flaskr" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\myRepo\pystack\foo\meachinglearning\chapter5" />
-      <recent name="F:\myRepo\pystack\resources" />
-      <recent name="F:\myRepo\pystack\foo\meachinglearning\others" />
-      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\foo\sicp\chapter2" />
-      <recent name="C:\Users\wqkant\PycharmProjects\deeplearning\meachinglearning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.json_to_csv">
+  <component name="RunManager" selected="Python.colic_sklearn">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,10 +287,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="colic_sklearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pystack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/meachinglearning/chapter5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/meachinglearning/chapter5/colic_sklearn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="json_to_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/utils" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -327,6 +332,9 @@
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/utils" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -346,9 +354,6 @@
       <module name="pystack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/meachinglearning/chapter5" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -356,28 +361,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="plot2D" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pystack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/foo/meachinglearning/chapter5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foo/meachinglearning/chapter5/plot2D.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,18 +393,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.logRegres" />
-      <item itemvalue="Python.plot2D" />
       <item itemvalue="Python.plotGD" />
       <item itemvalue="Python.json_to_csv_1" />
       <item itemvalue="Python.json_to_csv" />
+      <item itemvalue="Python.colic_sklearn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.colic_sklearn" />
+        <item itemvalue="Python.logRegres" />
         <item itemvalue="Python.json_to_csv" />
         <item itemvalue="Python.json_to_csv_1" />
         <item itemvalue="Python.plotGD" />
-        <item itemvalue="Python.plot2D" />
-        <item itemvalue="Python.logRegres" />
       </list>
     </recent_temporary>
   </component>
@@ -455,6 +438,7 @@
       <workItem from="1553743760017" duration="3359000" />
       <workItem from="1554011167739" duration="9006000" />
       <workItem from="1554027995929" duration="15949000" />
+      <workItem from="1554356499314" duration="6278000" />
     </task>
     <servers />
   </component>
@@ -491,7 +475,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214701000" />
+    <option name="totallyTimeSpent" value="222628000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -503,10 +487,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="227" y="70" width="1507" height="1000" extended-state="0" />
+    <frame x="1016" y="159" width="1507" height="1022" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20801659" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19073947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.327252" />
@@ -517,9 +501,9 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3278496" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.408776" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49965447" weight="0.32517484" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32839224" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.4989634" visible="true" weight="0.35450345" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4989634" visible="true" weight="0.4481982" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50103664" side_tool="true" weight="0.2735043" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -527,7 +511,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" x="0" y="0" width="326" height="702" id="Documentation" order="3" sideWeight="0.5035765" side_tool="true" weight="0.12646855" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49642345" visible="true" weight="0.25119048" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49642345" visible="true" weight="0.15825847" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
     <layout-to-restore>
@@ -576,11 +560,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/anaconda/Lib/site-packages/flask/app.py" />
-    <entry file="file://E:/anaconda/pkgs/plotly-3.7.0-py_0/share/jupyter/nbextensions/plotlywidget/index.js" />
-    <entry file="file://$PROJECT_DIR$/foo/flaskr-study/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/foo/test/one.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -648,13 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37025">
           <caret line="1491" column="8" selection-start-line="1491" selection-start-column="8" selection-end-line="1491" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1980697110/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10650">
-          <caret line="426" column="62" selection-start-line="426" selection-start-column="56" selection-end-line="426" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -770,37 +742,42 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/numpy/core/numeric.py" />
-    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py">
+    <entry file="file://D:/json_to_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="28" />
+        <state>
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$PROJECT_DIR$/foo/utils/json_to_csv_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        <state relative-caret-position="250">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://E:/anaconda/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="8350">
           <caret line="336" selection-start-line="336" selection-end-line="336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/utils/groupBy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16475">
+          <caret line="659" column="5" selection-end-line="701" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foo/utils/json_to_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
+        <state relative-caret-position="625">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -808,20 +785,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo/utils/groupBy.json">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="659" column="5" lean-forward="true" selection-end-line="701" selection-end-column="1" />
+        <state relative-caret-position="4775">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo/utils/json_to_csv_1.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="52" column="49" lean-forward="true" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+        <state relative-caret-position="379">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter5/horseColicTest.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter5/logRegres.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1980697110/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="5100" column="8" selection-start-line="5100" selection-start-column="8" selection-end-line="5100" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo/meachinglearning/chapter5/colic_sklearn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
         </state>
       </provider>
     </entry>
