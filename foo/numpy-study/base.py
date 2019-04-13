@@ -33,3 +33,50 @@ if __name__ == '__main__':
     print(a.shape)
     print(a.dtype)
     print(a.itemsize)
+    a = []
+    a.append([1, 1])
+    a.append([0, 1])
+    b = []
+    b.append([2, 0])
+    b.append([3, 4])
+    a = np.array(a)
+    b = np.array(b)
+    print(a.dot(b))
+    print(np.dot(a, b))
+
+    a = np.ones((2, 3), dtype=int)
+    b = np.random.random((2, 3))
+    print(a * 3 + b + a)
+    print("-----")
+    # a += b # b is not automatically converted to integer type
+
+    # size = (a, b, c)
+    # 维度 == size中参数的个数
+    # # a指最外层1（只看最外层括号）看本层元素个数，本例中指有两层括号的元素个数
+    # b指只看次层2层括号内本层元素个数，本例中指有一层括号的元素个数
+    # c指只看3层最内层本层元素个数。，无括号的元素个数。
+    # ** [] ** 代表维度，增加一层括号即增加一维。
+
+    a = np.arange(24).reshape(2, 3, 4)
+    print(a)
+    # axis = 0 剩下的矩阵为（3， 4），沿0相加
+    print(a.sum(axis=0))
+    print(a.sum(axis=0).sum(axis=0))
+    print(a.sum(axis=0).sum(axis=0).sum(axis=0))
+    # axis = 0 剩下的矩阵为（2， 4）
+    print(a.sum(axis=1))
+    print(a.sum(axis=1).sum(axis=1))
+    print(a.sum(axis=1).sum(axis=1).sum(axis=0))
+    # axis = 0 剩下的矩阵为（2， 3）
+    print(a.sum(axis=2))
+    print(a.sum(axis=2).sum(axis=1))
+    print(a.sum(axis=2).sum(axis=1).sum(axis=0))
+
+    a = np.arange(10) ** 3
+    print(a)
+    print(a[2])
+    print(a[2:5])
+    print(a[::2])
+    print(a[::-1])
+    a = np.arange(24).reshape(2, 3, 4)
+    print(a[:, :, ::2])
