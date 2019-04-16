@@ -4,11 +4,11 @@ import os
 from bs4 import BeautifulSoup
 
 if __name__ == '__main__':
-    target = 'https://blog.csdn.net/dpengwang/article/details/88355744'
+    target = 'http://www.cnblogs.com/zangrunqiang/p/5515872.html'
     req = requests.get(url=target)
     html = req.text
     bf = BeautifulSoup(html)
-    content = bf.find_all('article')[0]
+    content = bf.find_all('blogpost-body')[0]
     # 渲染的html模板
     html_template = """
        <!DOCTYPE html>

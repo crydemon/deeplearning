@@ -43,7 +43,9 @@ def calcEk(oS, k):
 
 def selectJrand(i, m):
     j = i  # 选择一个不等于i的j
+
     while (j == i):
+        # 从一个均匀分布[low,high)中随机采样，注意定义域是左闭右开，即包含low，不包含high.
         j = int(random.uniform(0, m))
     return j
 

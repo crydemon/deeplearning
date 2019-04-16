@@ -66,7 +66,8 @@ def smoSimple(dataMatIn, classLabels, C, toler, maxIter):
                     H = min(C, alphas[j] + alphas[i])
                 if L == H: print("L==H"); continue
                 # 步骤3：计算eta
-                eta = 2.0 * dataMatrix[i, :] * dataMatrix[j, :].T - dataMatrix[i, :] * dataMatrix[i, :].T - dataMatrix[ j, :] * dataMatrix[j, :].T
+                eta = 2.0 * dataMatrix[i, :] * dataMatrix[j, :].T \
+                      - dataMatrix[i, :] * dataMatrix[i, :].T - dataMatrix[j, :] * dataMatrix[j, :].T
                 if eta >= 0: print("eta>=0"); continue
                 # 步骤4：更新alpha_j
                 alphas[j] -= labelMat[j] * (Ei - Ej) / eta
