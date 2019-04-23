@@ -44,7 +44,6 @@ def regErr(dataSet):
 
 
 def chooseBestSplit(dataSet, leafType=regLeaf, errType=regErr, ops=(1, 4)):
-    import types
     tolS = ops[0]
     tolN = ops[1]
     if len(set(dataSet[:, -1].T.tolist()[0])) == 1:
@@ -69,12 +68,77 @@ def chooseBestSplit(dataSet, leafType=regLeaf, errType=regErr, ops=(1, 4)):
     mat0, mat1 = binSplitDataSet(dataSet, bestIndex, bestValue)
     if min(np.shape(mat0)[0], np.shape(mat1)[0]) < tolN:
         return None, leafType(dataSet)
-    return None, bestValue
+    return bestIndex, bestValue
+
+
+def createTree(dataSet, leafType=regLeaf, errType=regErr, ops=(1, 4)):
+    feat, val = chooseBestSplit(dataSet, leafType, errType, ops)
+    if feat is None:
+        return val
+    retTree = {}
+    retTree['spInd'] = feat
+    retTree['spVal'] = val
+    lSet, rSet = binSplitDataSet(dataSet, feat, val)
+    retTree['left'] = createTree(lSet, leafType, errType, ops)
+    retTree['right'] = createTree(rSet, leafType, errType, ops)
+    return retTree
+
+
+def isTree(obj):
+    return type(obj).__name__ == 'dict'
+
+
+def getMean(tree):
+    if isTree(tree['right']):
+        tree['right'] = getMean(tree['right'])
+    if isTree(tree['left']):
+        tree['left'] = getMean(tree['left'])
+    return (tree['right'] + tree['left']) / 2
+
+
+def prune(tree, testData):
+    if np.shape(testData)[0] == 0:
+        return getMean(tree)
+    if isTree(tree['right']) or isTree(tree['left']):
+        lSet, rSet = binSplitDataSet(testData, tree['spInd'], tree['spVal'])
+        # 处理左子树(剪枝)
+    if isTree(tree['left']): tree['left'] = prune(tree['left'], lSet)
+    # 处理右子树(剪枝)
+    if isTree(tree['right']): tree['right'] = prune(tree['right'], rSet)
+    # 如果当前结点的左右结点为叶结点
+    if not isTree(tree['left']) and not isTree(tree['right']):
+        lSet, rSet = binSplitDataSet(testData, tree['spInd'], tree['spVal'])
+        # 计算没有合并的误差
+        errorNoMerge = np.sum(np.power(lSet[:, -1] - tree['left'], 2)) + np.sum(
+            np.power(rSet[:, -1] - tree['right'], 2))
+        # 计算合并的均值
+        treeMean = (tree['left'] + tree['right']) / 2.0
+        # 计算合并的误差
+        errorMerge = np.sum(np.power(testData[:, -1] - treeMean, 2))
+        # 如果合并的误差小于没有合并的误差,则合并
+        if errorMerge < errorNoMerge:
+            return treeMean
+        else:
+            return tree
+    else:
+        return tree
 
 
 if __name__ == '__main__':
-    myDat = loadDataSet('ex00.txt')
-    myMat = np.mat(myDat)
-    feat, val = chooseBestSplit(myMat, regLeaf, regErr, (1, 4))
-    print(feat)
-    print(val)
+    train_filename = 'ex2.txt'
+    train_Data = loadDataSet(train_filename)
+    train_Mat = np.mat(train_Data)
+    tree = createTree(train_Mat)
+    print(tree)
+    test_filename = 'ex2test.txt'
+    test_Data = loadDataSet(test_filename)
+    test_Mat = np.mat(test_Data)
+    print(prune(tree, test_Mat))
+    # myDat = loadDataSet('ex00.txt')
+    # myMat = np.mat(myDat)
+    # print(createTree(myMat))
+    # myDat = loadDataSet('ex00.txt')
+    # myMat = np.mat(myDat)
+    # feat, val = chooseBestSplit(myMat, regLeaf, regErr, (1, 4))
+    # print(feat)
+    # print(val)
