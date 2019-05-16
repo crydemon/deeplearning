@@ -28,6 +28,28 @@ if __name__ == '__main__':
     labelencoder_X = LabelEncoder()
     X[:, 0] = labelencoder_X.fit_transform(X[:, 0])
     # Creating a dummy variable
+    # 将离散型特征使用one-hot编码，确实会让特征之间的距离计算更加合理。
+    # 比如，有一个离散型特征，代表工作类型，该离散型特征，共有三个取值，不使用one-hot编码，其表示分别是x_1 = (1), x_2 = (2), x_3 = (3)。
+    # 两个工作之间的距离是，(x_1, x_2) = 1, d(x_2, x_3) = 1, d(x_1, x_3) = 2。那么x_1和x_3工作之间就越不相似吗？
+    # 显然这样的表示，计算出来的特征的距离是不合理。
+    # 那如果使用one-hot编码，则得到x_1 = (1, 0, 0), x_2 = (0, 1, 0), x_3 = (0, 0, 1)，
+    # 那么两个工作之间的距离就都是sqrt(2).即每两个工作之间的距离是一样的，显得更合理。
+
+
+    # 首先，one-hot编码是N位状态寄存器为N个状态进行编码的方式 
+    # eg：高、中、低不可分，→ 用0 0 0 三位编码之后变得可分了，并且成为互相独立的事件 
+    # → 类似 SVM中，原本线性不可分的特征，经过project之后到高维之后变得可分了 
+    # GBDT处理高维稀疏矩阵的时候效果并不好，即使是低维的稀疏矩阵也未必比SVM好。
+
+    # Tree Model不太需要one-hot编码
+    # 对于决策树来说，one-hot的本质是增加树的深度 
+    # tree-model是在动态的过程中生成类似 One-Hot + Feature Crossing 的机制 
+    # 1. 一个特征或者多个特征最终转换成一个叶子节点作为编码 ，one-hot可以理解成三个独立事件 
+    # 2. 决策树是没有特征大小的概念的，只有特征处于他分布的哪一部分的概念 
+    # one-hot可以解决线性可分问题 但是比不上label econding 
+    # one-hot降维后的缺点： 
+    # 降维前可以交叉的降维后可能变得不能交叉 
+
     onehotencoder = OneHotEncoder(categorical_features=[0])
     onehotencoder = ColumnTransformer(
         [('one_hot_encoder', OneHotEncoder(), [0])],
@@ -61,7 +83,7 @@ if __name__ == '__main__':
 
     # Step 6: Feature Scaling
     from sklearn.preprocessing import StandardScaler
-
+    # 特征量化
     sc_X = StandardScaler()
     X_train = sc_X.fit_transform(X_train)
     X_test = sc_X.transform(X_test)
