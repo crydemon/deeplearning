@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
     dataset = pd.read_csv('studentscores.csv')
+    #Data Preprocessing
     X = dataset.iloc[:, : 1].values
+    print(X)
     Y = dataset.iloc[:, 1].values
     from sklearn.model_selection import train_test_split
 
@@ -17,8 +19,9 @@ if __name__ == '__main__':
 
     # Predecting the Result
     Y_pred = regressor.predict(X_test)
-
+    print(Y_pred)
     # Visualising the Training results
+    # scatter 分散
     plt.scatter(X_train, Y_train, color='red')
     plt.plot(X_train, regressor.predict(X_train), color='blue')
 

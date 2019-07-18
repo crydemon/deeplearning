@@ -8,3 +8,5 @@ var/
 .worksheet
 .idea
 *.xml
+venv/
+*.txt
